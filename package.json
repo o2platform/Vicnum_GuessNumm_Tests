@@ -1,0 +1,12 @@
+{
+  "name": "Vicnum_GuessNumm_Tests",
+  "version": "1.0.0",
+  "description": "Tests for vulnerable by design Vicnum app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --recursive -R list",
+    "test-watch": "node ./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --recursive -R list -w"
+  },
+  "author": "Dinis Cruz <dinis.cruz@owasp.org> (http://blog.diniscruz.com/)",
+  "license": "Apache 2.0"
+}
